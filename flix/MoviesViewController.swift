@@ -33,8 +33,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             } else if let data = data {
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
 
-                // print(dataDictionary)
                 self.movies = dataDictionary["results"] as! [[String:Any]]
+                
+                self.tableView.reloadData()
                 
                 // TODO: Get the array of movies
                 // TODO: Store the movies in a property to use elsewhere
@@ -61,14 +62,17 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 50
+        return movies.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell()
         
-        cell.textLabel!.text = "row: \(indexPath.row)"
+        let movie = movies[indexPath.row]
+        let title = movie["title"]
+        
+        cell.textLabel!.text = title as? String
         
         return cell
     }
