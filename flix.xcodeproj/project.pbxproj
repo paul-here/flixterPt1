@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3363CFC223E8FA7B007A8EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFC123E8FA7B007A8EA5 /* AppDelegate.swift */; };
 		3363CFC423E8FA7B007A8EA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFC323E8FA7B007A8EA5 /* SceneDelegate.swift */; };
-		3363CFC623E8FA7B007A8EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFC523E8FA7B007A8EA5 /* ViewController.swift */; };
 		3363CFC923E8FA7B007A8EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3363CFC723E8FA7B007A8EA5 /* Main.storyboard */; };
 		3363CFCB23E8FA7D007A8EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3363CFCA23E8FA7D007A8EA5 /* Assets.xcassets */; };
 		3363CFCE23E8FA7D007A8EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3363CFCC23E8FA7D007A8EA5 /* LaunchScreen.storyboard */; };
 		3363CFD923E8FA7D007A8EA5 /* flixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFD823E8FA7D007A8EA5 /* flixTests.swift */; };
 		3363CFE423E8FA7D007A8EA5 /* flixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFE323E8FA7D007A8EA5 /* flixUITests.swift */; };
+		3363CFF223E8FE55007A8EA5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFF123E8FE55007A8EA5 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		3363CFBE23E8FA7B007A8EA5 /* flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3363CFC123E8FA7B007A8EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3363CFC323E8FA7B007A8EA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3363CFC523E8FA7B007A8EA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3363CFC823E8FA7B007A8EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3363CFCA23E8FA7D007A8EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3363CFCD23E8FA7D007A8EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		3363CFDF23E8FA7D007A8EA5 /* flixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3363CFE323E8FA7D007A8EA5 /* flixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixUITests.swift; sourceTree = "<group>"; };
 		3363CFE523E8FA7D007A8EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3363CFF123E8FE55007A8EA5 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				3363CFC123E8FA7B007A8EA5 /* AppDelegate.swift */,
 				3363CFC323E8FA7B007A8EA5 /* SceneDelegate.swift */,
-				3363CFC523E8FA7B007A8EA5 /* ViewController.swift */,
 				3363CFC723E8FA7B007A8EA5 /* Main.storyboard */,
 				3363CFCA23E8FA7D007A8EA5 /* Assets.xcassets */,
 				3363CFCC23E8FA7D007A8EA5 /* LaunchScreen.storyboard */,
 				3363CFCF23E8FA7D007A8EA5 /* Info.plist */,
+				3363CFF123E8FE55007A8EA5 /* MoviesViewController.swift */,
 			);
 			path = flix;
 			sourceTree = "<group>";
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3363CFC623E8FA7B007A8EA5 /* ViewController.swift in Sources */,
 				3363CFC223E8FA7B007A8EA5 /* AppDelegate.swift in Sources */,
 				3363CFC423E8FA7B007A8EA5 /* SceneDelegate.swift in Sources */,
+				3363CFF223E8FE55007A8EA5 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
