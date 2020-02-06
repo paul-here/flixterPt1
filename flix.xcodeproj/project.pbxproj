@@ -15,6 +15,7 @@
 		3363CFD923E8FA7D007A8EA5 /* flixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFD823E8FA7D007A8EA5 /* flixTests.swift */; };
 		3363CFE423E8FA7D007A8EA5 /* flixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFE323E8FA7D007A8EA5 /* flixUITests.swift */; };
 		3363CFF223E8FE55007A8EA5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363CFF123E8FE55007A8EA5 /* MoviesViewController.swift */; };
+		336974BB23EB952400EB96C4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336974BA23EB952400EB96C4 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3363CFE323E8FA7D007A8EA5 /* flixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixUITests.swift; sourceTree = "<group>"; };
 		3363CFE523E8FA7D007A8EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3363CFF123E8FE55007A8EA5 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		336974BA23EB952400EB96C4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3363CFC123E8FA7B007A8EA5 /* AppDelegate.swift */,
 				3363CFC323E8FA7B007A8EA5 /* SceneDelegate.swift */,
 				3363CFC723E8FA7B007A8EA5 /* Main.storyboard */,
+				336974BA23EB952400EB96C4 /* MovieCell.swift */,
 				3363CFCA23E8FA7D007A8EA5 /* Assets.xcassets */,
 				3363CFCC23E8FA7D007A8EA5 /* LaunchScreen.storyboard */,
 				3363CFCF23E8FA7D007A8EA5 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				3363CFC223E8FA7B007A8EA5 /* AppDelegate.swift in Sources */,
 				3363CFC423E8FA7B007A8EA5 /* SceneDelegate.swift in Sources */,
+				336974BB23EB952400EB96C4 /* MovieCell.swift in Sources */,
 				3363CFF223E8FE55007A8EA5 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
